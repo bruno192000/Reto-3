@@ -17,6 +17,7 @@ body{
 .cabecera h1 , .cabecera h2{
     position: absolute;
     color: white;
+    
 
 }
 .cabecera h1 {
@@ -29,7 +30,7 @@ body{
     bottom: 30%;
     font-size: 50px;
     left: 10%;
-    line-height: 2.2rem;
+    line-height: 60px;
     margin-bottom: 0;
     border-radius: 10px;
     text-align: left;
@@ -260,6 +261,7 @@ textarea {
     display: block;
     width: 100%;
     border: solid;
+   
 }
 
 .btn-form {
@@ -272,7 +274,7 @@ textarea {
     width: 167px;
     height: 56px;
     background-color: red;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 25px;
     
 }
