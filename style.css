@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: blue;
+}
+.wrap{
+    margin: auto;
+}
+.cabecera{
+    position: relative;
+    
+    
+}
+.cabecera h1 , .cabecera h2{
+    position: absolute;
+    color: white;
+
+}
+.cabecera h1 {
+  top: 10%;
+  left: 40%;
+  font-size: 50px;
+
+}
+.cabecera h2 {
+    bottom: 30%;
+    font-size: 50px;
+    left: 10%;
+    line-height: 2.2rem;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #7299FE80 ;
+    padding: 10px;
+}
+.cabecera figure img{
+    display: block;
+    width: 100%;
+}
+
+.sobre-mi{
+    padding: 30px 40px 70px 40px;
+    background-color: purple;
+    
+}
+.sobre-mi h2{
+    color: blue;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sobre-mi p {
+    color: white;
+
+}
+
+.sobre-mi button{
+    margin-top: 15px;
+    width: 187px;
+    height:52px ;
+    border-radius: 20px;
+    background-color: #D16FFF;
+    color: white;
+
+}
+
+.skills{
+    position: relative;
+}
+
+.skilll {
+    background-color: orange;
+    width: 100%;
+    padding-bottom: 45px;
+}
+section{
+    display: block;
+}
+.nuevotitulo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 20px;
+    text-align: center;
+    color: green;
+    
+}
+.rama {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+}
+.cajas-grandes {
+    display: flex;
+    align-content: center;
+}
+
+.uno {
+    width: 100%;
+    margin-left: 60px;
+}
+.marginleft {
+    margin-left: 150px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.progre1 {
+    width: 90%;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.porc1 {
+    width: 70%;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+    border: solid;
+}
+.porc2 {
+    width: 60%;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+    border: solid;
+}
+.porc3 {
+    width: 40%;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 20px;
+    border: solid;
+}
+
+.titylos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    margin-left: 100px;
+    text-align: center;
+    color: #00AD84;
+    font-family: 'Arial';
+    margin-top: 50px;
+    margin-bottom: 5px;
+    
+}
+
+.firstcontainer{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.portafolio-imagen {
+    margin-left: 110px;
+}
+
+.secondcontainer {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.clientela {
+    background-color: gray;
+}
+
+.titulo-clientela {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: yellow;
+    text-align: center;
+    
+}
+.portafolio-imagen img{
+    border-radius: 25px;
+    border: solid;
+}
+
+.imagenes {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imagenes img {
+    border-radius: 25px;
+    border: solid;
+}
+
+.contacto{
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contacto h2 {
+    color: purple;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    width: 157px;
+    height: 41px;
+    
+}
+.estructura {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+input {
+    width: 380px;
+    height: 70px;
+    border: solid;
+}
+.contenedor-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: solid;
+}
+
+.btn-form {
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    width: 167px;
+    height: 56px;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 25px;
+    
+}
+
+.btn-form:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.sobre-mi button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
